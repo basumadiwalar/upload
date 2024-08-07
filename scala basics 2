@@ -1,0 +1,25 @@
+Variables are simply storage locations. Every variable is known by its name and stores some known and unknown piece of information known as value. 
+So one can define a variable by its data type and name, a data type is responsible for allocating memory for the variable. In Scala there are two types of variables: 
+
+Mutable Variables
+Immutable Variables
+Let’s understand each one of these variables in detail. 
+
+Mutable Variable: These variables are those variables that allow us to change a value after the declaration of a variable.
+Mutable variables are defined by using the var keyword. The first letter of data type should be in capital letter because in Scala data type is treated as objects.
+
+
+
+Immutable Variable: 
+These variables are those variables that do not allow you to change a value after the declaration of a variable. Immutable variables are defined by using the val keyword. The first letter of data type should be in capital letter because in Scala data type is treated as objects. 
+
+
+
+
+
+
+
+Any constant value which can be assigned to the variable is called as literal/constant. 
+The literals are a series of symbols utilized for describing a constant value in the code. 
+There are many types of literals in Scala namely Character literals, String literals, Multi-Line String literals, Boolean literals, Integer literals, and Floating point literals.
+
