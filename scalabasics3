@@ -1,0 +1,64 @@
+Classes and Objects are basic concepts of Object Oriented Programming which revolve around the real-life entities.
+
+Class
+A class is a user-defined blueprint or prototype from which objects are created. Or in other words, a class combines the fields and methods(member function which defines actions) into a single unit. Basically, in a class constructor is used for initializing new objects, fields are variables that provide the state of the class and its objects, and methods are used to implement the behavior of the class and its objects.
+
+Declaration of class 
+In Scala, a class declaration contains the class keyword, followed by an identifier(name) of the class. But there are some optional attributes which can be used with class declaration according to the application requirement. In general, class declarations can include these components, in order: 
+
+Keyword class: A class keyword is used to declare the type class.
+Class name: The name should begin with a initial letter (capitalized by convention).
+Superclass(if any):The name of the class’s parent (superclass), if any, preceded by the keyword extends. A class can only extend (subclass) one parent.
+Traits(if any): A comma-separated list of traits implemented by the class, if any, preceded by the keyword extends. A class can implement more than one trait.
+Body: The class body is surrounded by { } (curly braces).
+Syntax:  
+
+class Class_name{
+// methods and fields
+}
+Note: The default modifier of the class is public. 
+
+Example:  
+
+
+// A Scala program to illustrate
+// how to create a class
+ 
+// Name of the class is Smartphone
+class Smartphone
+{
+     
+    // Class variables
+    var number: Int = 16
+    var nameofcompany: String = "Apple"
+     
+    // Class method
+    def Display()
+    {
+        println("Name of the company : " + nameofcompany);
+        println("Total number of Smartphone generation: " + number);
+    }
+}
+object Main 
+{
+     
+    // Main method
+    def main(args: Array[String]) 
+    {
+         
+        // Class object
+        var obj = new Smartphone();
+        obj.Display();
+    }
+}
+Output: 
+
+Name of the company : Apple
+Total number of Smartphone generation: 16
+Objects
+It is a basic unit of Object Oriented Programming and represents the real-life entities. A typical Scala program creates many objects, which as you know, interact by invoking methods. An object consists of :  
+
+State: It is represented by attributes of an object. It also reflects the properties of an object.
+Behavior: It is represented by methods of an object. It also reflects the response of an object with other objects.
+Identity: It gives a unique name to an object and enables one object to interact with other objects.
+Consider Dog as an object and
