@@ -3,3 +3,26 @@ It is a pure object-oriented programming language which also provides the suppor
 There is no concept of primitive data as everything is an object in Scala.
 It is designed to express the general programming patterns in a refined, succinct, and type-safe way. Scala programs can convert to bytecodes and can run on the JVM(Java Virtual Machine). 
 Scala stands for Scalable language. It also provides the JavaScript runtimes. Scala is highly influenced by Java and some other programming languages like Lisp, Haskell, Pizza, etc.
+
+
+Scala has many reasons for being popular among programmers. Few of the reasons are :  
+
+Easy to Start: Scala is a high level language so it is closer to other popular programming languages like Java, C, C++. Thus it becomes very easy to learn Scala for anyone. For Java programmers, Scala is more easy to learn.
+Contains best Features: Scala contains the features of different languages like C, C++, Java, etc. which makes the it more useful, scalable and productive.
+Close integration with Java: The source code of the Scala is designed in such a way that its compiler can interpret the Java classes. Also, Its compiler can utilize the frameworks, Java Libraries, and tools etc. After compilation, Scala programs can run on JVM.
+Web – Based & Desktop Application Development: For the web applications it provides the support by compiling to JavaScript. Similarly for desktop applications, it can be compiled to JVM bytecode.
+Used by Big Companies: Most of the popular companies like Apple, Twitter, Walmart, Google etc. move their most of codes to Scala from some other languages. reason being it is highly scalable and can be used in backend operations.
+Note: People always thinks that Scala is a extension of Java. But it is not true.
+It is just completely interoperable with Java. Scala programs get converted into .class file which contains Java Byte Code after the successful compilation and then can run on JVM(Java Virtual Machine). 
+
+
+Features of Scala
+There are many features which makes it different from other languages. 
+
+Object- Oriented: Every value in Scala is an object so it is a purely object-oriented programming language. The behavior and type of objects are depicted by the classes and traits in Scala.
+Functional: It is also a functional programming language as every function is a value and every value is an object. It provides the support for the high-order functions, nested functions, anonymous functions, etc.
+Statically Typed: The process of verifying and enforcing the constraints of types is done at compile time in Scala. Unlike other statically typed programming languages like C++, C, etc., Scala doesn’t expect the redundant type information from the user. In most cases, the user has no need to specify a type.
+Extensible: New language constructs can be added to Scala in form of libraries. Scala is designed to interpolate with the JRE(Java Runtime Environment).
+Concurrent & Synchronize Processing: Scala allows the user to write the codes in an immutable manner that makes it easy to apply the parallelism(Synchronize) and concurrency.
+Run on JVM & Can Execute Java Code: Java and Scala have a common runtime environment. So the user can easily move from Java to Scala. The Scala compiler compiles the program into .class file, containing the Bytecode that can be executed by JVM. All the classes of Java SDK can be used by Scala. With the help of Scala user can customize the Java classes.
+
